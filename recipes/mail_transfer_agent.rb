@@ -15,7 +15,7 @@ if %w[rhel fedora centos].include?(node['platform'])
 end
 
 if %w[debian ubuntu].include?(node['platform'])
-  source = 'etc_main.cf_ubuntu.erb'
+  source = 'main.cf.erb'
 end
 
 template '/etc/postfix/main.cf' do
