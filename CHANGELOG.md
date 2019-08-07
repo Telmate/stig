@@ -1,6 +1,13 @@
 ## Changelog
 ---------
-- 0.6.11
+
+0.6.12
+------
+
+* Updated sshd template to match sshd 1.3.1
+
+0.6.11
+------
 
 * Updated postfix template to match postfix 5.3.1
 
