@@ -1,5 +1,9 @@
 ## Changelog
 ---------
+- 0.6.11
+
+* Updated postfix template to match postfix 5.3.1
+
 
 - 0.6.10
 
