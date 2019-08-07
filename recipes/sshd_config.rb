@@ -105,7 +105,7 @@ valid_syslog_facility_level = %w[DAEMON USER AUTH AUTHPRIV LOCAL0 LOCAL1 LOCAL2 
 raise "node['stig']['sshd_config']['syslog_facility'] must be one of #{valid_syslog_facility_level}" unless valid_syslog_facility_level.include?(vars['syslog_facility'])
 
 template '/etc/ssh/sshd_config' do
-  source 'etc_ssh_sshd_config.erb'
+  source 'sshd_config.erb'
   mode 0o600
   owner 'root'
   group 'root'
