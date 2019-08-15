@@ -18,6 +18,8 @@ if %w[debian ubuntu].include?(node['platform'])
   source = 'main.cf.erb'
 end
 
+directory '/etc/postfix'
+
 template '/etc/postfix/main.cf' do
   source source
   owner 'root'
