@@ -1,5 +1,10 @@
 ## Changelog
 ---------
+0.6.13
+------
+
+* Updated postfix and sshd templates
+
 
 0.6.12
 ------

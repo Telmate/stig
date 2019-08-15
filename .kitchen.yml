@@ -1,5 +1,5 @@
 <%
-  platforms = %w(centos-7 centos-6)
+  platforms = %w(centos-7 centos-6 ubuntu-16.04)
   use_git = false
 %>
 ---
@@ -8,6 +8,7 @@ driver:
 
 provisioner:
   name: chef_zero
+  require_chef_omnibus: 12.19.36
 
 verifier:
   name: inspec
