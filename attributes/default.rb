@@ -1085,13 +1085,13 @@ default['stig']['sshd_config']['protocol'] = '2'
 default['stig']['system_auth']['pass_reuse_limit'] = 10
 
 # Set Password Expiration Days
-default['stig']['login_defs']['pass_max_days'] = 60
+default['stig']['login_defs']['pass_max_days'] = 99999
 
 # Set Password Change Minimum Number of Days
-default['stig']['login_defs']['pass_min_days'] = 7
+default['stig']['login_defs']['pass_min_days'] = 0
 
 # Set Password Expiring Warning Days
-default['stig']['login_defs']['pass_warn_age'] = 15
+default['stig']['login_defs']['pass_warn_age'] = 7
 
 # Set the login banner(s)
 default['stig']['login_banner']['motd'] = ''
