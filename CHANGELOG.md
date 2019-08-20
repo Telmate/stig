@@ -1,5 +1,11 @@
 ## Changelog
 ---------
+0.6.14
+------
+
+* Removed pass_min_length from login_def
+* Updated login_def defaults in attributes
+
 0.6.13
 ------
 
